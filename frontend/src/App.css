@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; 
+}
+
+.tankcol {
+  background-color: #e9ecef; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tank {
+  width: 6.5cm; 
+  height: 13cm; 
+  border: 2px solid #007bff; 
+  position: relative;
+  margin: 20px auto;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #f1f1f1 100%); 
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.water {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: height 0.5s ease;
+  border-radius: 10px 10px 0 0; /* Rounded top */
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.alert {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05);
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title span {
+  font-weight: bold;
+}
+
+.tank-label {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #007bff; 
+}
+
+
+.tank-container {
+  position: relative;
+}
+
+.tank-bottom {
+  height: 5px; 
+  background-color: #555; 
+  border-radius: 0 0 10px 10px; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
